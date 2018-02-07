@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
-    
+            
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.halomademeapc.primehtml5"
     versionCode = "10"
@@ -15,4 +15,7 @@
   </author>
     <platform name="android" />
     <platform name="winphone" />
+    <icon src="favicon.png" width="32" height="32" />
+    <icon src="niceicon.png" width="128" height="128" />
+    <icon src="niceicon-hires.png" width="192" height="192" />
 </widget>
