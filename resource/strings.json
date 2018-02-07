@@ -1,0 +1,28 @@
+{
+    "startButton": [
+        "light it up",
+        "burn that CPU",
+        "crash my phone",
+        "throttle that handheld",
+        "simulate an aging battery on iOS",
+        "run benchmark",
+        "depress me",
+        "test device",
+        "calculate"
+    ],
+    "appTitle": "PrimeHTML5",
+    "appDesc": "A JavaScript Benchmark",
+    "appDescBase": "A JavaScript",
+    "appDescTease": "abomination",
+    "appDescCrossout": "Benchmark",
+    "resultDesc": "Your Score",
+    "progUnit": "prime/sec",
+    "resultUnit": "AU (Arbitrary Units)",
+    "retryButton": "Try Again",
+    "progXAxis": "Time (s)",
+    "progYAxis": "Primes Found",
+    "devDescriptor": "Your Device",
+    "progDesc": "Benchmark running...",
+    "compBtn": "Compare results",
+    "lastResult": "Your device"
+}

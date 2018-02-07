@@ -1,0 +1,46 @@
+#progGraph {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    min-height: 15em;
+    display: block;
+}
+
+.primeRate {
+    color: #ed1e79;
+    text-align: right;
+}
+
+.resultHolder {
+    width: 100%;
+    display: block;
+}
+
+.resultBar {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color: #ed1e79;
+    width: 20%;
+}
+
+.resultscore {
+    text-align: right;
+    margin-right: .5em;
+}
+
+.resultLbl {
+    font-size: smaller;
+}
+
+.result {
+    margin-top: .7em;
+}
+
+.appTitle, .ui-title {
+    text-shadow: none!important;
+}
+
+.ui-header {
+    background-color: #1a1a1a!important;
+}

@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PrimeHTML5</title>
+	<link rel="stylesheet" href="themes/GeneriCo.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="custom.css" />
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="common.js"></script>
+	<meta name="theme-color" content="#ed1e79">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" sizes="192x192" href="nice-highres.png">
+	<link rel="icon" sizes="128x128" href="niceicon.png">
+	<link rel="apple-touch-icon" sizes="128x128" href="niceicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="niceicon.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+
+<body>
+	<div data-role="page" data-theme="a" id="landing">
+		<div data-role="header" data-position="inline">
+			<h1 class="appTitle"></h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<h4 class="appDesc"></h4>
+			<form id="setup">
+				<fieldset data-role="controlgroup"></fieldset>
+				<legend>Benchmark Length:</legend>
+				<input type="radio" name="timeToggle" id="standard" value="1" checked="checked">
+				<label for="standard">Standard</label>
+				<input type="radio" name="timeToggle" id="custom" value="0">
+				<label for="custom">Custom</label>
+				</fieldset>
+				<input type="number" name="length" id="lengthRad" placeholder="Length of time (s)" max="240" min="20" disabled>
+				<button class="startButton" type="submit"></button>
+			</form>
+		</div>
+	</div>
+
+	<div data-role="page" data-theme="a" id="bench">
+		<div data-role="header" data-position="inline">
+			<h1 class="appTitle"></h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<p class="progDesc"></p>
+			<canvas id="progGraph"></canvas>
+			<p class="primeRate">
+				<span class="progRate"></span>
+				<span class="progUnit"></span>
+			</p>
+		</div>
+	</div>
+
+	<div data-role="page" data-theme="a" id="result">
+		<div data-role="header" data-position="inline">
+			<h1 class="appTitle"></h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<h4 class="resultDesc"></h4>
+			<p class="result">0</p>
+			<button class="compareButton" onclick="showPage('compare')"></button>
+			<button class="retryButton" onclick="showPage('landing')" style="display: none"></button>
+		</div>
+	</div>
+
+	<div data-role="page" data-theme="a" id="compare">
+		<div data-role="header" data-position="inline">
+			<h1 class="appTitle"></h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<h4 class="compbtn"></h4>
+			<div class="compTable">
+
+			</div>
+			<button class="retryButton" onclick="showPage('landing')"></button>
+		</div>
+	</div>
+</body>
+
+</html>
