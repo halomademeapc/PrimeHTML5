@@ -15,15 +15,15 @@
   </author>
     <platform name="android">
         <!-- Portrait Splash -->
-        <splash src="assets/Android/drawable-ldpi/icon.png" density="port-ldpi" />
-        <splash src="assets/Android/drawable-mdpi/icon.png" density="port-mdpi" />
-        <splash src="assets/Android/drawable-hdpi/icon.png" density="port-hdpi" />
-        <splash src="assets/Android/drawable-xhdpi/icon.png" density="port-xhdpi" />
+        <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="port-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/icon.png" qualifier="port-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/icon.png" qualifier="port-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/icon.png" qualifier="port-xhdpi" />
         <!-- Landscape -->
-        <splash src="assets/Android/drawable-ldpi/icon.png" density="land-ldpi" />
-        <splash src="assets/Android/drawable-mdpi/icon.png" density="land-mdpi" />
-        <splash src="assets/Android/drawable-hdpi/icon.png" density="land-hdpi" />
-        <splash src="assets/Android/drawable-xhdpi/icon.png" density="land-xhdpi" />
+        <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="land-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/icon.png" qualifier="land-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/icon.png" qualifier="land-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/icon.png" qualifier="land-xhdpi" />
         <!-- Icons -->
         <icon src="assets/Android/drawable-ldpi/icon.png" qualifier="ldpi" />
         <icon src="assets/Android/drawable-mdpi/icon.png" qualifier="mdpi" />
