@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
-            
+                        
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.halomademeapc.primehtml5"
     versionCode = "10"
@@ -13,7 +13,25 @@
     <author href="https://www.halomademeapc.com" email="alex@halomademeapc.com">
       Alex Griffith
   </author>
-    <platform name="android" />
+    <platform name="android">
+        <!-- Portrait Splash -->
+        <splash src="assets/Android/drawable-ldpi/icon.png" density="port-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/icon.png" density="port-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/icon.png" density="port-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/icon.png" density="port-xhdpi" />
+        <!-- Landscape -->
+        <splash src="assets/Android/drawable-ldpi/icon.png" density="land-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/icon.png" density="land-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/icon.png" density="land-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/icon.png" density="land-xhdpi" />
+        <!-- Icons -->
+        <icon src="assets/Android/drawable-ldpi/icon.png" qualifier="ldpi" />
+        <icon src="assets/Android/drawable-mdpi/icon.png" qualifier="mdpi" />
+        <icon src="assets/Android/drawable-hdpi/icon.png" qualifier="hdpi" />
+        <icon src="assets/Android/drawable-xhdpi/icon.png" qualifier="xhdpi" />
+        <icon src="assets/Android/drawable-xxhdpi/icon.png" qualifier="xxhdpi" />
+        <icon src="assets/Android/drawable-xxxhdpi/icon.png" qualifier="xxxhdpi" />
+    </platform>
     <platform name="winphone" />
     <icon src="favicon.png" width="32" height="32" />
     <icon src="niceicon.png" width="128" height="128" />
