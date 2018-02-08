@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+                        
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.halomademeapc.primehtml5"
+    versionCode = "10"
+    version     = "1.0.0">
+    <!-- versionCode is optional and Android only -->
+    <name>PrimeHTML5</name>
+    <description>
+      Prime number benchmark built on HTML5 technologies.
+  </description>
+    <author href="https://www.halomademeapc.com" email="alex@halomademeapc.com">
+      Alex Griffith
+  </author>
+    <platform name="android">
+        <!-- Portrait Splash -->
+        <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="port-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/icon.png" qualifier="port-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/icon.png" qualifier="port-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/icon.png" qualifier="port-xhdpi" />
+        <!-- Landscape -->
+        <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="land-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/icon.png" qualifier="land-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/icon.png" qualifier="land-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/icon.png" qualifier="land-xhdpi" />
+        <!-- Icons -->
+        <icon src="assets/Android/drawable-ldpi/icon.png" qualifier="ldpi" />
+        <icon src="assets/Android/drawable-mdpi/icon.png" qualifier="mdpi" />
+        <icon src="assets/Android/drawable-hdpi/icon.png" qualifier="hdpi" />
+        <icon src="assets/Android/drawable-xhdpi/icon.png" qualifier="xhdpi" />
+        <icon src="assets/Android/drawable-xxhdpi/icon.png" qualifier="xxhdpi" />
+        <icon src="assets/Android/drawable-xxxhdpi/icon.png" qualifier="xxxhdpi" />
+    </platform>
+    <platform name="winphone" />
+    <icon src="favicon.png" width="32" height="32" />
+    <icon src="niceicon.png" width="128" height="128" />
+    <icon src="niceicon-hires.png" width="192" height="192" />
+    <preference name="BackgroundColor" value="0xff000000"/>
+</widget>
