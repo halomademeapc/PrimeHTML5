@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
-                                
+                                    
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.halomademeapc.primehtml5"
     versionCode = "10"
@@ -13,22 +13,22 @@
     <author href="https://www.halomademeapc.com" email="alex@halomademeapc.com">
       Alex Griffith
   </author>
-    <preference name="SplashScreen" value="screen"/>
+    <preference name="SplashScreen" value="assets"/>
     <preference name="SplashScreenDelay" value="4000"/>
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <platform name="android">
         <!-- Portrait Splash -->
-        <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="port-ldpi" />
-        <splash src="assets/Android/drawable-mdpi/icon.png" qualifier="port-mdpi" />
-        <splash src="assets/Android/drawable-hdpi/icon.png" qualifier="port-hdpi" />
-        <splash src="assets/Android/drawable-xhdpi/icon.png" qualifier="port-xhdpi" />
+        <splash src="assets/Android/drawable-ldpi/splash.png" qualifier="port-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/splash.png" qualifier="port-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/splash.png" qualifier="port-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/splash.png" qualifier="port-xhdpi" />
         <!-- Landscape -->
-        <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="land-ldpi" />
-        <splash src="assets/Android/drawable-mdpi/icon.png" qualifier="land-mdpi" />
-        <splash src="assets/Android/drawable-hdpi/icon.png" qualifier="land-hdpi" />
-        <splash src="assets/Android/drawable-xhdpi/icon.png" qualifier="land-xhdpi" />
+        <splash src="assets/Android/drawable-ldpi/splash.png" qualifier="land-ldpi" />
+        <splash src="assets/Android/drawable-mdpi/splash.png" qualifier="land-mdpi" />
+        <splash src="assets/Android/drawable-hdpi/splash.png" qualifier="land-hdpi" />
+        <splash src="assets/Android/drawable-xhdpi/splash.png" qualifier="land-xhdpi" />
         <!-- Icons -->
         <icon src="assets/Android/drawable-ldpi/icon.png" qualifier="ldpi" />
         <icon src="assets/Android/drawable-mdpi/icon.png" qualifier="mdpi" />
