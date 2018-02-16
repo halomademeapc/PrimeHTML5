@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
-                        
+                            
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.halomademeapc.primehtml5"
     versionCode = "10"
@@ -13,6 +13,8 @@
     <author href="https://www.halomademeapc.com" email="alex@halomademeapc.com">
       Alex Griffith
   </author>
+    <preference name="SplashScreen" value="screen"/>
+    <preference name="SplashScreenDelay" value="10000"/>
     <platform name="android">
         <!-- Portrait Splash -->
         <splash src="assets/Android/drawable-ldpi/icon.png" qualifier="port-ldpi" />
